@@ -10,11 +10,11 @@
     </style>
     
     <style name="CircularProgressBarLight">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
         <item name="stroke_width">5dp</item>
         <item name="progress" format="float">0.1</item>
-        <item name="progress_color">@android:color/holo_red_light</item>
+        <item name="progress_color">@android:color/white</item>
         <item name="progress_background_color">@android:color/darker_gray</item>
     </style>
 </resources>

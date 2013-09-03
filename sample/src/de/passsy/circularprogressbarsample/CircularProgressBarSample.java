@@ -55,25 +55,26 @@ public class CircularProgressBarSample extends Activity {
 		});
 
 		final HoloCircularProgressBar progress = (HoloCircularProgressBar) findViewById(R.id.holoCircularProgressBar1);
-		animate(progress, new AnimatorListener() {
-
-			@Override
-			public void onAnimationCancel(final Animator animation) {
-			}
-
-			@Override
-			public void onAnimationEnd(final Animator animation) {
-				animate(progress, this);
-			}
-
-			@Override
-			public void onAnimationRepeat(final Animator animation) {
-			}
-
-			@Override
-			public void onAnimationStart(final Animator animation) {
-			}
-		});
+		progress.setProgress(50/100f);
+//		animate(progress, new AnimatorListener() {
+//
+//			@Override
+//			public void onAnimationCancel(final Animator animation) {
+//			}
+//
+//			@Override
+//			public void onAnimationEnd(final Animator animation) {
+//				animate(progress, this);
+//			}
+//
+//			@Override
+//			public void onAnimationRepeat(final Animator animation) {
+//			}
+//
+//			@Override
+//			public void onAnimationStart(final Animator animation) {
+//			}
+//		});
 	}
 
 	/**
